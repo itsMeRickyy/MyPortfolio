@@ -1,0 +1,157 @@
+ <div class="swiper mySwiper slider-cards-js mb-10 ">
+            <div id="What_i_Do" class="swiper-wrapper lg:flex lg:justify-around">
+              <!-- do1 -->
+              <div class="swiper-slide md:max-w-[350px] ">
+                <div class="my-5">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-calculator"
+                    width="54"
+                    height="54"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                    <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"></path>
+                    <path d="M8 14l0 .01"></path>
+                    <path d="M12 14l0 .01"></path>
+                    <path d="M16 14l0 .01"></path>
+                    <path d="M8 17l0 .01"></path>
+                    <path d="M12 17l0 .01"></path>
+                    <path d="M16 17l0 .01"></path>
+                  </svg>
+                </div>
+                <p>
+                  <h1>Page 1</h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vitae perspiciatis iste quisquam quos beatae delectus officiis et? Ipsam explicabo quam delectus optio neque blanditiis ipsum dolor labore rerum? Ducimus.
+                </p>
+              </div>
+              <hr class="h-px my-8 bg-gray-600 border-0" />
+              <!-- do2 -->
+              <div class="swiper-slide md:max-w-[350px]">
+                <div class="my-5">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-calculator"
+                    width="54"
+                    height="54"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                    <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"></path>
+                    <path d="M8 14l0 .01"></path>
+                    <path d="M12 14l0 .01"></path>
+                    <path d="M16 14l0 .01"></path>
+                    <path d="M8 17l0 .01"></path>
+                    <path d="M12 17l0 .01"></path>
+                    <path d="M16 17l0 .01"></path>
+                  </svg>
+                </div>
+                <p>
+                  <h1>Page 2</h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vitae perspiciatis iste quisquam quos beatae delectus officiis et? Ipsam explicabo quam delectus optio neque blanditiis ipsum dolor labore rerum? Ducimus.
+                </p>
+              </div>
+              <hr class="h-px my-8 bg-gray-600 border-0" />
+              <!-- do3 -->
+              <div class="swiper-slide md:max-w-[350px]">
+                <div class="my-5">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-calculator"
+                    width="54"
+                    height="54"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                    <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"></path>
+                    <path d="M8 14l0 .01"></path>
+                    <path d="M12 14l0 .01"></path>
+                    <path d="M16 14l0 .01"></path>
+                    <path d="M8 17l0 .01"></path>
+                    <path d="M12 17l0 .01"></path>
+                    <path d="M16 17l0 .01"></path>
+                  </svg>
+                </div>
+                <p>
+                  <h1>Page 3</h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vitae perspiciatis iste quisquam quos beatae delectus officiis et? Ipsam explicabo quam delectus optio neque blanditiis ipsum dolor labore rerum? Ducimus.
+                </p>
+              </div>
+              <hr class="h-px my-8 bg-gray-600 border-0" />
+              <!-- do -->
+            </div>           
+
+            <!-- buttons -->
+            <div style="display: none;" class="swiper-button-prev "></div>
+            <div style="display: none;" class="swiper-button-next "></div>
+
+            <div class="swiper-pagination hidden"></div>
+            <!-- scrollbar -->
+            <div class="swiper-scrollbar hidden"></div>
+          </div>
+          
+        </div>
+
+
+
+
+         <div class="swiper mySwiper slider-cards-js">
+                <div class="lg:px-28 lg:flex justify-around swiper-wrapper">
+                  <!-- wireframe -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-yellow-200 md:py-6 swiper-slide">
+                    <div>
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                      Assumenda fugit quisquam aut, provident at quos?
+                    </p>
+                  </div>
+                  <!-- web dev -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-blue-200 md:py-6 swiper-slide">
+                    <div class="mb-5 md:mb-0">
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg mb-2 md:mb-0">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit quisquam aut, provident at quos?</p>
+                  </div>
+                  <!-- Mobile app dev -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-purple-200 md:py-6 swiper-slide">
+                    <div>
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit quisquam aut, provident at quos?</p>
+                  </div>
+                </div>
+                <!-- buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-pagination"></div>
+                <!-- scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>

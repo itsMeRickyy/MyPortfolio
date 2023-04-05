@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="dist/ext-style.css" />
+    <title>Document</title>
+  </head>
+  <body class="font-poppins">
+    <div class="">
+      <!-- navbar -->
+      <div class="px-5 md:px-20 xl:px-72 py-10 block">
+        <div class="flex justify-between items-center">
+          <!-- icon -->
+          <div>
+            <button class="px-5 py-2.5 text-4xl md:text-2xl">Stutter.</button>
+          </div>
+          <!-- humberger -->
+          <div class="block md:hidden -right-16">
+            <button class="px-5 py-4 flex flex-col gap-1 justify-center items-center">
+              <div class="w-5 h-1 rounded-lg bg-slate-800"></div>
+              <div class="w-5 h-1 rounded-lg bg-slate-800"></div>
+              <div class="w-5 h-1 rounded-lg bg-slate-800"></div>
+            </button>
+          </div>
+          <!-- menu button -->
+          <div class="hidden md:flex">
+            <button class="px-5 py-2.5 hover:text-blue-700">Home</button>
+            <button class="px-5 py-2.5 hover:text-blue-700">About me</button>
+            <button class="px-5 py-2.5 hover:text-blue-700">Project</button>
+          </div>
+          <!-- etc -->
+          <div class="hidden md:flex">
+            <!-- contact -->
+            <button class="px-5 py-2.5 hover:text-blue-700">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </button>
+            <!-- share -->
+            <button class="px-5 py-2.5 hover:text-blue-700">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- header -->
+      <div class="px-5 md:px-20 xl:px-72 mb-0 xl:mb-28 xl:mt-32 pt-20 block ">
+        <div class="flex justify-between ">
+          <!-- text -->
+          <div class="md:w-[80%] flex flex-col justify-start">
+            <h1 class="text-7xl">Hi<span class="text-slate-400">,</span></h1>
+            <h1 class="text-7xl font-bold">I am <span>Rizz</span></h1>
+            <h1 class="text-xl md:text-5xl">|<span id="multipleText"></span></h1>
+            <p>Website and mobile development & responsive web design.</p>
+            <!-- button -->
+            <div class="my-24 flex flex-col md:flex-row mx-auto md:mx-0 gap-5 justify-between w-full md:justify-start items-center md:items-baseline">
+              <button
+                type="button"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 inline-flex items-center justify-center"
+              >
+                Get in touch
+                <span class="pl-2 -rotate-45 translate-y-1"
+                  ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </span>
+              </button>
+
+              <button
+                type="button"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-[17px] py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 inline-flex items-center justify-center"
+              >
+                Download Cv
+                <span class="pl-2"
+                  ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- profile picture -->
+          <div class="md:w-[45%]">
+            <div></div>
+            <div class="hidden md:flex justify-center items-center h-full">
+              <img class="block min-w-[70%] max-w-[80%] -translate-y-24" src="assets/webdev.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about me -->
+      <div class="block">
+        <div class="bg-darkColor w-full py-16">
+          <div class="flex flex-col text-center justify-center">
+            <h1 class="text-whiteColor text-3xl mb-10">About me</h1>
+            <p class="text-white font-light px-5 md:px-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iste inventore dolores aut? <br />
+              Repellat dicta est ipsum architecto a dolor excepturi quo quae sed dignissimos fugiat, <br />
+              illo, facilis reprehenderit pariatur!
+            </p>
+            <!-- years -->
+            <div class="flex flex-col md:flex-row justify-center items-center py-11 gap-10 ">
+              <div class="flex">
+                <h1 class="text-yellowColor text-5xl font-semibold mr-2">12</h1>
+                <div class="text-whiteColor font-light">
+                  Years of <br />
+                  Experience
+                </div>
+              </div>
+              <div class="flex">
+                <h1 class="text-yellowColor text-5xl font-semibold mr-2">125+</h1>
+                <div class="text-whiteColor font-light">
+                  Client <br />
+                  Served
+                </div>
+              </div>
+            </div>
+            <!-- service -->
+            <div class="w-full py-10 xl:mx-auto lg:px-16 xl:px-60">
+              <h1 class="text-whiteColor text-3xl font-semibold pb-10">Service I Offer</h1>
+              <div class="swiper flex justify-center mySwiper slider-cards-js">
+                <div class="lg:px-28 swiper-wrapper">
+                  <!-- wireframe -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-[#D4FE6A] md:py-6 swiper-slide">
+                    <div>
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                      Assumenda fugit quisquam aut, provident at quos?
+                    </p>
+                  </div>
+                  <!-- web dev -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-[#5DF8C1] md:py-6 swiper-slide">
+                    <div class="">
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                      Assumenda fugit quisquam aut, provident at quos?
+                    </p>
+                  </div>
+                  <!-- Mobile app dev -->
+                  <div class="h-72 py-10 md:w-60 md:h-60 bg-[#A78BFA] md:py-6 swiper-slide">
+                    <div>
+                      <i class="fa-solid fa-newspaper fa-3x"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg">Wireframe</h1>
+                    <p class="text-sm leading-[1.6]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                      Assumenda fugit quisquam aut, provident at quos?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-pagination hidden"></div>
+                <!-- buttons -->
+                <div class="swiper-button-prev hidden"></div>
+                <div class="swiper-button-next hidden"></div>
+
+                <!-- scrollbar -->
+                <div class="swiper-scrollbar hidden"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- recent project -->
+      <div class="w-full py-28 xl:mx-auto lg:px-16 xl:px-60">
+        <div>
+          <h1 class="text-3xl font-semibold text-center mb-10">Recent Project</h1>
+          <div class="w-full">
+            <div class="swiper flex justify-center mySwiper slider-cards-js">
+              <div class="lg:px-28 swiper-wrapper">
+                <!-- wireframe -->
+                <div class="h-72 md:w-60 md:h-60 swiper-slide flex justify-center items-center">
+                  <div class="w-full h-full transition-all duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
+                    <div class="bg-slate-400-5"></div>
+                    <img src="appDev.jpg" alt="" class="scale-125 md:hover:scale-150 md:opacity-50 md:hover:opacity-100 transition-all duration-300" />
+                  </div>
+                </div>
+                <!-- web dev -->
+                <div class="h-72 md:w-60 md:h-60 swiper-slide flex flex-col justify-center items-center">
+                  <div class="w-full h-full transition-all duration-300 group flex items-center md:hover:w-[95%] overflow-hidden">
+                    <img src="appDev.jpg" alt="" class="scale-125 md:hover:scale-150 md:opacity-50 md:hover:opacity-100 transition-all duration-300" />
+                  </div>
+                </div>
+                <!-- Mobile app dev -->
+                <div class="h-72 md:w-60 md:h-60 swiper-slide flex justify-center items-center">
+                  <div class="w-full h-full transition-all duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
+                    <div class="bg-slate-400-5"></div>
+                    <img src="appDev.jpg" alt="" class="scale-125 md:hover:scale-150 md:opacity-50 md:hover:opacity-100 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination hidden"></div>
+              <!-- buttons -->
+              <div class="swiper-button-prev hidden"></div>
+              <div class="swiper-button-next hidden"></div>
+
+              <!-- scrollbar -->
+              <div class="swiper-scrollbar hidden"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tools i want to learn -->
+      <div class="w-full">
+        <div class="md:px-20">
+          <h1 class="text-center text-3xl pb-10 font-bold">Tools</h1>
+          <div id="tools_icon" class="toolsIcon grid grid-cols-2 md:grid-cols-4 grid-rows-2 place-items-center gap-y-10">
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon">
+              <img src="assets/tools/html5-original.svg" alt="" />
+              <span class="text-center">HTML</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/css3-plain.svg" alt="" />
+              <span class="text-center">CSS3</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/javascript-original.svg" alt="" />
+              <span class="text-center">Javascript</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/nodejs-original-wordmark.svg" alt="" />
+              <span class="text-center">NodeJS</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/react-original-wordmark.svg" alt="" />
+              <span class="text-center">React</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/tailwindcss-icon.svg" alt="" class="mx-auto" />
+              <span class="text-center">Tailwind</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/typescript-original.svg" alt="" />
+              <span class="text-center">Typescript</span>
+            </div>
+            <div data-aos="fade-up" class="flex flex-col bg-slate-100 p-3 rounded-md card-icon justify-center">
+              <img src="assets/tools/git-plain.svg" alt="" />
+              <span class="text-center">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact -->
+      <div class="my-16">
+        <div class="bg-darkColor w-full py-10 px-16 xl:px-72 flex flex-col md:flex-row gap-5 justify-between">
+          <div>
+            <h1 class="text-whiteColor mb-5 text-3xl">Let's make something amazing</h1>
+            <div>
+              <form id="comment">
+                <label for="input-group-1" class="block mb-2 text-sm font-medium text-whiteColor dark:text-white">Your Email</label>
+                    <div class="relative mb-6">
+                      <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                      </div>
+                      <input type="text" id="input-group-1" class="bg-inherit border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@gmail.com">
+                    </div>
+                </div>
+                <div>
+                    <label for="helper-text" class="block mb-2 text-sm font-medium text-whiteColor dark:text-white">Your name</label>
+                    <input type="text" id="input-group-1" class="bg-inherit border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your name">
+                    <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’ll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
+                </div>
+                <div class="my-6">
+                  <label for="large-input" class="block mb-2 text-sm font-medium text-whiteColor dark:text-white">What's on your mind?</label>
+                  <input type="text" id="large-input" class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-inherit sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              </div>
+              <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none  font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send</button>
+              </form>
+          </div>  
+          <div class="py-10  flex flex-col justify-end">
+            <h1 class="text-whiteColor mb-5 text-3xl text-center">Find me on!</h1>
+            <div id="socmed_icon" class="flex pr-5 justify-center gap-16  w-full py-2">
+              <div class="">
+                <i class="fa-brands fa-square-facebook fa-3x"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-square-instagram fa-3x"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-square-github fa-3x"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-linkedin fa-3x"></i>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="block">
+        <div class="px-6 md:px-20 py-10 block">
+          <div class="flex justify-between items-center">
+            <!-- icon -->
+            <div>
+              <button class="md:px-5 py-2.5 text-4xl md:text-2xl">Stutter.</button>
+            </div>
+
+            <!-- menu button -->
+            <div class="hidden md:flex">
+              <button class="px-5 py-2.5 hover:text-blue-700">Home</button>
+              <button class="px-5 py-2.5 hover:text-blue-700">About me</button>
+              <button class="px-5 py-2.5 hover:text-blue-700">Project</button>
+            </div>
+            <!-- etc -->
+            <div class="">
+              <h1 class="font-light">@2023. All rights reserved</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+
+    <!-- swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- script flowbite -->
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/52ea2e8fb3.js" crossorigin="anonymous"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- typedJs -->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/typed.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/aos.js"></script>
+  </body>
+</html>
